@@ -1,11 +1,6 @@
 spring:
   application:
     name: eureka-client-logs
-  profiles:
-    active: dev
-  config:
-    import: optional:configserver:http://localhost:8888
-  # Caso o servidor de configuracao esteja OFF, a configuracao abaixo eh aplicada
   data:
     mongodb:
       port: 27017
